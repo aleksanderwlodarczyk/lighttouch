@@ -1,20 +1,18 @@
-<p align="center"><img width="100" src="https://i.imgur.com/zwjfmrF.png" alt="lighttouch logo"></p>
+<p align="center"><img width="100" src="https://i.imgur.com/zwjfmrF.png" alt="lighttouch logo"><br>This Project is Currently in Stealth Mode.<br>please do not post a news story until v0.1 is released very shortly.<br>thank you.</p>
 
 <p align="center">
-  <a href="https://github.com/foundpatterns/lighttouch/releases"><img src="https://img.shields.io/badge/version-0.9.9-blue.svg" alt="Versioning"></a>
-  <a href="https://github.com/foundpatterns?q=&type=fork&language=lua"><img src="https://requires.io/static/3.5/badges/flat/up-to-date.svg" alt="High-Quality Joke"></a>
   <a href="https://github.com/foundpatterns/lighttouch/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=" alt="Contributions Welcome"></a>
-  <a href="https://discord.gg/sWCQxT"><img src="https://img.shields.io/badge/chat-on%20discord-7289da.svg" alt="Chat"></a>
+  <a href="https://discord.gg/b6MY7dG"><img src="https://img.shields.io/badge/chat-on%20discord-7289da.svg" alt="Chat"></a>
 </p>
 
 Lighttouch is a framework that makes complex application development simpler.  It does this through broad use of [component-oriented design](https://en.wikipedia.org/wiki/Component-based_software_engineering) intended to offer programmers a well-researched alternative to starting with a blank canvas - "put your code anywhere".
 
 [Code organized](https://en.wikipedia.org/wiki/Structured_programming) this way is:
 - easier to program
-- possible to use as a base for [visual programming environments](https://en.wikipedia.org/wiki/Visual_programming_language) 
 - unlimited in its reusability of implementations
 - easier to extend with other developers' plugins
 - possible to socially cross-pollenate diverse and complex applications
+- possible to use as a base for [visual programming environments](https://en.wikipedia.org/wiki/Visual_programming_language) 
 
 Without this, applications tend to:
 - get walled into handling only a single use case
@@ -56,9 +54,9 @@ Lighttouch also provides modules for content management, robust logging, syntax 
 ### Installation
 
 Lightouch has 3 dependencies:
-* **[git](https://git-scm.com)** [version control manager](https://en.wikipedia.org/wiki/Version_control)
-* **[peru](https://github.com/buildinspace/peru)** [package manager](https://en.wikipedia.org/wiki/Package_manager)
-* **[torchbear](https://github.com/foundpatterns/torchbear)** [application framework](https://stackoverflow.com/questions/4241919/what-is-meant-by-application-framework)
+* **[torchbear](https://github.com/foundpatterns/torchbear)** (an [application framework](https://stackoverflow.com/questions/4241919/what-is-meant-by-application-framework))
+* **[git](https://git-scm.com)** (a [version control manager](https://en.wikipedia.org/wiki/Version_control))
+* **[peru](https://github.com/buildinspace/peru)** (a [package manager](https://en.wikipedia.org/wiki/Package_manager))
 
 Once these are installed, clone the repo with git, run `peru sync` to install its components, and run it with `torchbear`.  To update, use `git pull` and `peru reup`.
 

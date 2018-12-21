@@ -1,41 +1,34 @@
 imports:
   lighttouch-base: lighttouch-base/
   lighttouch-logging: packages/lighttouch-logging
-  lighttouch-keys: packages/lighttouch-keys
   lighttouch-json-interface: packages/lighttouch-json-interface
   lighttouch-html-interface: packages/lighttouch-html-interface
-  jadeseal-foundpatterns: packages/jadeseal-foundpatterns
   homepage-package: packages/homepage-package
   base-theme: themes/base-theme
   send-file-package: packages/send-file-package
+  lighttouch-change-management: packages/lighttouch-change-management
 
-  
 git module lighttouch-base:
   url: https://github.com/foundpatterns/lighttouch-base.git
   recursive: true
-  rev: 48a8407ec27588b2157a8229763961904871793f
 
 git module lighttouch-logging:
   url: https://github.com/foundpatterns/lighttouch-logging.git
 
-git module lighttouch-keys:
-  url: https://github.com/foundpatterns/lighttouch-keys.git
-  
 git module lighttouch-json-interface:
   url: https://github.com/foundpatterns/lighttouch-json-interface.git
-  
+
 git module lighttouch-html-interface:
   url: https://github.com/foundpatterns/lighttouch-html-interface.git
-  
-git module jadeseal-foundpatterns:
-  url: https://github.com/foundpatterns/jadeseal-foundpatterns.git
-  
+
 git module base-theme:
   url: https://github.com/foundpatterns/base-theme
-  
+
 git module homepage-package:
   url: https://github.com/foundpatterns/homepage-package
-  rev: f5972955672c9e4466a78bacc9376b1a4b457dd9
-  
+
 git module send-file-package:
   url: https://github.com/foundpatterns/send-file-package
+
+git module lighttouch-change-management:
+  url: https://github.com/foundpatterns/lighttouch-change-management.git
